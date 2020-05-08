@@ -23,7 +23,13 @@
 
 
 
+#### Progress
 
+- Completed the waypoint updater code, catkin_make doesnt throw any errors
+
+#### Issues
+
+* If the code is taken as a zip file from the repo and run on a linux machine, the catkin_make fails as the CMakeList file in the root throws an issue. I am assuming this is because of the UNIX line break format. Couldnt resolve it , so directly cloned the repo inside WSL
 
 
 Original readme below this line
